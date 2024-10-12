@@ -1,0 +1,35 @@
+Crie um contador que comece em 1 e vá até 10 usando um loop while. Mostre cada número.
+
+let contador = 1;
+
+while (contador <= 10){
+  console.log(contador);
+  contador++; // decrementação ( ++ soma, -- subtrai o valor do contador)
+}
+
+Crie um contador que começa em 10 e vá até 0 usando um loop while. Mostre cada número.
+let contador = 10;
+
+while (contador >= 0){
+  console.log(contador);
+  contador--; // decrementação ( ++ soma, -- subtrai o valor do contador)
+}
+
+Crie um programa de contagem regressiva. Peça um número e conte deste número até 0, usando um loop while no console do navegador.
+let numero = prompt('Diga o número para a contagem regressiva');
+numero = parseInt(numero); // Certifica de que é um número
+
+while (numero >= 0) {
+    console.log(numero);
+    numero--;
+}
+
+Crie um programa de contagem progressiva. Peça um número e conte de 0 até esse número, usando um loop while no console do navegador.
+let numeroAalcançar = prompt('Escolha um número para a contagem alcançar');
+numeroAalcançar = parseInt(numeroAalcançar); // Certifica de que é um número
+let numero = 0;
+
+while (numero <= numeroAalcançar) {
+    console.log(numero);
+    numero++;
+}
